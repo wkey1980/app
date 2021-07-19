@@ -1,5 +1,6 @@
 import Navbar from './components/Navbar'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import NotFound from './components/NotFound'
 
 // Import Pages
 import About from './pages/About';
@@ -31,6 +32,9 @@ function App() {
           </Route>
           <Route exact path="/portfolio">
             <Portfolio />
+          </Route>
+          <Route path="*">
+            <NotFound />
           </Route>
         </Switch>
       </div>
