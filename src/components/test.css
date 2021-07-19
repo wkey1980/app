@@ -1,0 +1,13 @@
+body {
+    background-color: green;
+}
+
+.menuStyles {
+    display: flex;
+    justify-content: center;
+    background-color: teal;
+}
+.menuStyles h1 {
+    color: orange;
+    padding: 10px 30px;
+}
