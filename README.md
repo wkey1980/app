@@ -1,11 +1,5 @@
-# App
+### Starter Project for the Material UI playlist
 
+Download the code & run **npm install** to install dependencies before starting the app.
 
-removed code from package.json
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-
+You'll also need to install Material UI as a dependency. To do this run **npm install @material-ui/core**
